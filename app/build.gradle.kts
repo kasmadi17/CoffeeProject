@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.com.android.application)
     alias(libs.plugins.org.jetbrains.kotlin.android)
+    alias(libs.plugins.deteKt)
 }
 
 android {
@@ -44,6 +45,10 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+}
+
+detekt{
+    baseline = file("$rootDir/detekt-baseline.xml")
 }
 
 dependencies {

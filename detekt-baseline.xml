@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<SmellBaseline>
+  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <CurrentIssues>
+    <ID>FunctionNaming:HomeScreen.kt$@Composable fun HomeScreen()</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@Composable fun HomeTimeLine(innerPadding: PaddingValues)</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@Composable fun HomeTimeLineItemImage(modifier: Modifier = Modifier, url: String)</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@Composable fun HomeToolbar(modifier: Modifier = Modifier)</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@OptIn(ExperimentalFoundationApi::class) @Composable fun HomeTimeLineItem()</ID>
+    <ID>FunctionNaming:HomeScreen.kt$@Preview(showSystemUi = true) @Composable fun HomeScreenPreview()</ID>
+    <ID>FunctionNaming:Spacer.kt$@Composable fun ColumnScope.Spacer(height: Dp)</ID>
+    <ID>FunctionNaming:Spacer.kt$@Composable fun RowScope.Spacer(width: Dp)</ID>
+    <ID>FunctionNaming:Theme.kt$@Composable fun CoffeeProjectTheme( darkTheme: Boolean = isSystemInDarkTheme(), // Dynamic color is available on Android 12+ dynamicColor: Boolean = true, content: @Composable () -&gt; Unit )</ID>
+    <ID>MagicNumber:Color.kt$0xFF625b71</ID>
+    <ID>MagicNumber:Color.kt$0xFF6650a4</ID>
+    <ID>MagicNumber:Color.kt$0xFF7D5260</ID>
+    <ID>MagicNumber:Color.kt$0xFFCCC2DC</ID>
+    <ID>MagicNumber:Color.kt$0xFFD0BCFF</ID>
+    <ID>MagicNumber:Color.kt$0xFFEFB8C8</ID>
+    <ID>MagicNumber:HomeScreen.kt$10</ID>
+    <ID>NewLineAtEndOfFile:Color.kt$com.latte.coffeeproject.ui.theme.Color.kt</ID>
+    <ID>NewLineAtEndOfFile:ExampleUnitTest.kt$com.example.coffeeproject.ExampleUnitTest.kt</ID>
+    <ID>NewLineAtEndOfFile:Fonts.kt$com.latte.coffeeproject.ui.theme.Fonts.kt</ID>
+    <ID>NewLineAtEndOfFile:MainActivity.kt$com.latte.coffeeproject.MainActivity.kt</ID>
+    <ID>NewLineAtEndOfFile:Spacer.kt$com.latte.coffeeproject.component.Spacer.kt</ID>
+    <ID>NewLineAtEndOfFile:Theme.kt$com.latte.coffeeproject.ui.theme.Theme.kt</ID>
+    <ID>NewLineAtEndOfFile:Type.kt$com.latte.coffeeproject.ui.theme.Type.kt</ID>
+    <ID>WildcardImport:ExampleUnitTest.kt$import org.junit.Assert.*</ID>
+  </CurrentIssues>
+</SmellBaseline>

@@ -3,6 +3,7 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven { setUrl("https://oss.sonatype.org/content/repositories/snapshots/") }
     }
 }
 dependencyResolutionManagement {
@@ -15,3 +16,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "CoffeeProject"
 include(":app")
+include(":feature:auth")
+include(":core:theme")

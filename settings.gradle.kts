@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "CoffeeProject"
 include(":app")
+include(":build_logic:convention")
